@@ -1,4 +1,4 @@
-const API_CLIENTES = "http://localhost:3000/clientes";
+const API_CLIENTES = "https://techstore-mongodb.onrender.com/clientes";
 
 async function cargarClientes() {
     const respuesta = await fetch(API_CLIENTES);

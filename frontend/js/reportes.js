@@ -1,4 +1,4 @@
-const API_REPORTES = "http://localhost:3000/reportes";
+const API_REPORTES = "https://techstore-mongodb.onrender.com/reportes";
 
 async function cargarTotalVendido() {
     const respuesta = await fetch(`${API_REPORTES}/total-vendido`);

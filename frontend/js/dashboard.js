@@ -1,20 +1,20 @@
 async function cargarDashboard() {
-    const productos = await fetch("http://localhost:3000/productos")
+    const productos = await fetch("https://techstore-mongodb.onrender.com/productos")
         .then(res => res.json());
 
-    const clientes = await fetch("http://localhost:3000/clientes")
+    const clientes = await fetch("https://techstore-mongodb.onrender.com/clientes")
         .then(res => res.json());
 
-    const ventas = await fetch("http://localhost:3000/ventas")
+    const ventas = await fetch("https://techstore-mongodb.onrender.com/ventas")
         .then(res => res.json());
 
-    const total = await fetch("http://localhost:3000/reportes/total-vendido")
+    const total = await fetch("https://techstore-mongodb.onrender.com/reportes/total-vendido")
         .then(res => res.json());
 
-    const ventasHoy = await fetch("http://localhost:3000/reportes/ventas-hoy")
+    const ventasHoy = await fetch("https://techstore-mongodb.onrender.com/reportes/ventas-hoy")
     .then(res => res.json());
         
-    const productosMasVendidos = await fetch("http://localhost:3000/reportes/productos-mas-vendidos")
+    const productosMasVendidos = await fetch("https://techstore-mongodb.onrender.com/reportes/productos-mas-vendidos")
     .then(res => res.json());
 
 

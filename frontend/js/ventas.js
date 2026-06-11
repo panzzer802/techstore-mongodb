@@ -1,6 +1,6 @@
-const API_PRODUCTOS = "http://localhost:3000/productos";
-const API_CLIENTES = "http://localhost:3000/clientes";
-const API_VENTAS = "http://localhost:3000/ventas";
+const API_PRODUCTOS = "https://techstore-mongodb.onrender.com/productos";
+const API_CLIENTES = "https://techstore-mongodb.onrender.com/clientes";
+const API_VENTAS = "https://techstore-mongodb.onrender.com/ventas";
 
 let productos = [];
 let ventaActual = [];

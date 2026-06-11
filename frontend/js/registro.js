@@ -1,4 +1,4 @@
-const API_REGISTRO = "http://localhost:3000/usuarios/registro";
+const API_REGISTRO = "https://techstore-mongodb.onrender.com/usuarios/registro";
 
 async function registrarUsuario() {
     const nombre = document.getElementById("nombre").value;
